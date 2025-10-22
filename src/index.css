@@ -1,0 +1,32 @@
+:root {
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --muted: #64748b;
+    --accent: #ec4899;
+    --accent-secondary: #3b82f6;
+    --danger: #ef4444;
+    --pink-light: #fce7f3;
+    --blue-light: #dbeafe;
+    --pink-dark: #be185d;
+    --blue-dark: #1e40af;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+    font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: #1e293b;
+    min-height: 100vh;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
